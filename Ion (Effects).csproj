@@ -1,0 +1,133 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <LangVersion>preview</LangVersion>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>Ion</Authors>
+    <Company>Ion</Company>
+    <Copyright>No rights reserved.</Copyright>
+    <Description></Description>
+    <NeutralLanguage>en</NeutralLanguage>
+    <RepositoryUrl>https://github.com/ionsharp/</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AssemblyName>Ion.Effects</AssemblyName>
+    <AssemblyTitle>Ion.Effects</AssemblyTitle>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <RootNamespace>Ion.Effects</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0.0</Version>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Default\BlendEffect.ps" />
+    <None Remove="Default\ChannelsEffect.ps" />
+    <None Remove="Default\ColorModelEffect.ps" />
+    <None Remove="Default\OneChannelEffect.ps" />
+    <None Remove="Default\PieEffect.ps" />
+    <None Remove="Image\Blend\ColorOverlay.ps" />
+    <None Remove="Image\Blend\GradientOverlay.ps" />
+    <None Remove="Image\Blend\PatternOverlay.ps" />
+    <None Remove="Image\Blur\Blur.ps" />
+    <None Remove="Image\Blur\DirectionalBlur.ps" />
+    <None Remove="Image\Blur\GaussianBlur.ps" />
+    <None Remove="Image\Blur\ZoomBlur.ps" />
+    <None Remove="Image\Color\Adjust.ps" />
+    <None Remove="Image\Color\Difference.ps" />
+    <None Remove="Image\Color\Equalize.ps" />
+    <None Remove="Image\Color\Gamma.ps" />
+    <None Remove="Image\Color\Gloom.ps" />
+    <None Remove="Image\Color\Posterize.ps" />
+    <None Remove="Image\Color\Quantify.ps" />
+    <None Remove="Image\Color\Replace.ps" />
+    <None Remove="Image\Color\Shading.ps" />
+    <None Remove="Image\Color\Threshold.ps" />
+    <None Remove="Image\Color\Tint.ps" />
+    <None Remove="Image\Color\Tone.ps" />
+    <None Remove="Image\Distort\Magnify.ps" />
+    <None Remove="Image\Distort\Pinch.ps" />
+    <None Remove="Image\Distort\Pixelate.ps" />
+    <None Remove="Image\Distort\Ripple.ps" />
+    <None Remove="Image\Distort\Swirl.ps" />
+    <None Remove="Image\Distort\Tiles.ps" />
+    <None Remove="Image\Distort\Waves.ps" />
+    <None Remove="Image\Noise\Noise.ps" />
+    <None Remove="Image\Sharpen\Contrast.ps" />
+    <None Remove="Image\Sharpen\Sharpen.ps" />
+    <None Remove="Image\Sketch\SketchGranite.ps" />
+    <None Remove="Image\Sketch\SketchPencil.ps" />
+    <None Remove="Image\Stroke\Emboss.ps" />
+    <None Remove="Image\Stroke\Stroke.ps" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ion.Color\Ion (Color).csproj" />
+    <ProjectReference Include="..\Ion.Imaging\Ion (Imaging).csproj" />
+    <ProjectReference Include="..\Ion\Ion.csproj" />
+    <PackageReference Include="System.Drawing.Common" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Default\Blend\BlendEffect.ps" />
+    <Resource Include="Default\Channels\ChannelsEffect.ps" />
+    <Resource Include="Default\ColorModel\ColorModelEffect.ps" />
+    <Resource Include="Default\OneChannel\OneChannelEffect.ps" />
+    <Resource Include="Default\Pie\PieEffect.ps" />
+    <Resource Include="Image\Blend\ColorOverlay.ps" />
+    <Resource Include="Image\Blend\GradientOverlay.ps" />
+    <Resource Include="Image\Blend\PatternOverlay.ps" />
+    <Resource Include="Image\Blur\Blur.ps" />
+    <Resource Include="Image\Blur\DirectionalBlur.ps" />
+    <Resource Include="Image\Blur\GaussianBlur.ps" />
+    <Resource Include="Image\Blur\ZoomBlur.ps" />
+    <Resource Include="Image\Color\Adjust.ps" />
+    <Resource Include="Image\Color\Difference.ps" />
+    <Resource Include="Image\Color\Equalize.ps" />
+    <Resource Include="Image\Color\Gamma.ps" />
+    <Resource Include="Image\Color\Gloom.ps" />
+    <Resource Include="Image\Color\Posterize.ps" />
+    <Resource Include="Image\Color\Quantify.ps" />
+    <Resource Include="Image\Color\Replace.ps" />
+    <Resource Include="Image\Color\Shading.ps" />
+    <Resource Include="Image\Color\Threshold.ps" />
+    <Resource Include="Image\Color\Tint.ps" />
+    <Resource Include="Image\Color\Tone.ps" />
+    <Resource Include="Image\Distort\Magnify.ps" />
+    <Resource Include="Image\Distort\Pinch.ps" />
+    <Resource Include="Image\Distort\Pixelate.ps" />
+    <Resource Include="Image\Distort\Ripple.ps" />
+    <Resource Include="Image\Distort\Swirl.ps" />
+    <Resource Include="Image\Distort\Tiles.ps" />
+    <Resource Include="Image\Distort\Waves.ps" />
+    <Resource Include="Image\Noise\Noise.ps" />
+    <Resource Include="Image\Sharpen\Contrast.ps" />
+    <Resource Include="Image\Sharpen\Sharpen.ps" />
+    <Resource Include="Image\Sketch\SketchGranite.ps" />
+    <Resource Include="Image\Sketch\SketchPencil.ps" />
+    <Resource Include="Image\Stroke\Emboss.ps" />
+    <Resource Include="Image\Stroke\Stroke.ps" />
+  </ItemGroup>
+</Project>

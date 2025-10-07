@@ -1,0 +1,20 @@
+C:\Users\james\OneDrive\GitHub\Ion.Effects\bin\Debug\net8.0-windows\Ion.Effects.deps.json
+C:\Users\james\OneDrive\GitHub\Ion.Effects\bin\Debug\net8.0-windows\Ion.Effects.dll
+C:\Users\james\OneDrive\GitHub\Ion.Effects\bin\Debug\net8.0-windows\Ion.Effects.pdb
+C:\Users\james\OneDrive\GitHub\Ion.Effects\bin\Debug\net8.0-windows\Ion.Color.dll
+C:\Users\james\OneDrive\GitHub\Ion.Effects\bin\Debug\net8.0-windows\Ion.Imaging.dll
+C:\Users\james\OneDrive\GitHub\Ion.Effects\bin\Debug\net8.0-windows\Ion.Color.pdb
+C:\Users\james\OneDrive\GitHub\Ion.Effects\bin\Debug\net8.0-windows\Ion.Imaging.pdb
+C:\Users\james\OneDrive\GitHub\Ion.Effects\obj\Debug\net8.0-windows\Ion (Effects).csproj.AssemblyReference.cache
+C:\Users\james\OneDrive\GitHub\Ion.Effects\obj\Debug\net8.0-windows\Ion.Effects.g.resources
+C:\Users\james\OneDrive\GitHub\Ion.Effects\obj\Debug\net8.0-windows\Ion (Effects).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\OneDrive\GitHub\Ion.Effects\obj\Debug\net8.0-windows\Ion (Effects).AssemblyInfoInputs.cache
+C:\Users\james\OneDrive\GitHub\Ion.Effects\obj\Debug\net8.0-windows\Ion (Effects).AssemblyInfo.cs
+C:\Users\james\OneDrive\GitHub\Ion.Effects\obj\Debug\net8.0-windows\Ion (Effects).csproj.CoreCompileInputs.cache
+C:\Users\james\OneDrive\GitHub\Ion.Effects\obj\Debug\net8.0-windows\Ion (Eff.E99C6AFB.Up2Date
+C:\Users\james\OneDrive\GitHub\Ion.Effects\obj\Debug\net8.0-windows\Ion.Effects.dll
+C:\Users\james\OneDrive\GitHub\Ion.Effects\obj\Debug\net8.0-windows\refint\Ion.Effects.dll
+C:\Users\james\OneDrive\GitHub\Ion.Effects\obj\Debug\net8.0-windows\Ion.Effects.pdb
+C:\Users\james\OneDrive\GitHub\Ion.Effects\obj\Debug\net8.0-windows\ref\Ion.Effects.dll
+C:\Users\james\OneDrive\GitHub\Ion.Effects\bin\Debug\net8.0-windows\Ion.dll
+C:\Users\james\OneDrive\GitHub\Ion.Effects\bin\Debug\net8.0-windows\Ion.pdb

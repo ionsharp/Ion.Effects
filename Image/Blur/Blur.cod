@@ -41,7 +41,7 @@
     dcl_texcoord v0.xy  // uv<0,1>
     dcl_2d s0
 
-#line 35 "C:\Users\james\OneDrive\Code\GitHub\Core.WPF\Core.WPF\Effects\-Image\Blur\Blur.fx"
+#line 35 "C:\Users\james\OneDrive\Code\GitHub\Ion.WPF\Ion.WPF\Effects\-Image\Blur\Blur.fx"
     mov r0.zw, v0.xyxy
 
 #line 28

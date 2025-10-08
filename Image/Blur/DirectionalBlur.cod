@@ -24,7 +24,7 @@
     dcl_texcoord v0.xy  // uv<0,1>
     dcl_2d s0
 
-#line 23 "C:\Users\james\OneDrive\Code\GitHub\Core.WPF\Core.WPF\Effects\-Image\Blur\DirectionalBlur.fx"
+#line 23 "C:\Users\james\OneDrive\Code\GitHub\Ion.WPF\Ion.WPF\Effects\-Image\Blur\DirectionalBlur.fx"
     mov r0.xy, c2
     mad r0.x, c1.x, r0.x, r0.y
     frc r0.x, r0.x

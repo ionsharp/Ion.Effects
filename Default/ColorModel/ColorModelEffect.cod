@@ -240,7 +240,7 @@
     dcl_texcoord v0.xy  // uv<0,1>
     dcl_2d s0
 
-#line 2801 "C:\Users\james\GitHub\Core.WPF\Core.WPF\Effects\ColorModelEffect.fx"
+#line 2801 "C:\Users\james\GitHub\Ion.WPF\Ion.WPF\Effects\ColorModelEffect.fx"
     mov r0.xyz, c95
     add r0.x, r0.x, c0.x
     if_ge c0.x, r0.y

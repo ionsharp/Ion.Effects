@@ -36,7 +36,7 @@
     dcl_2d s0
     dcl_2d s1
 
-#line 587 "C:\Users\james\OneDrive\Code\GitHub\Core.WPF\Core.WPF\Effects\-Default\BlendEffect.fx"
+#line 587 "C:\Users\james\OneDrive\Code\GitHub\Ion.WPF\Ion.WPF\Effects\-Default\BlendEffect.fx"
     texld r0, v0, s0  // ::color1<0,1,2,3>
 
 #line 590

@@ -28,7 +28,7 @@
     dcl_texcoord v0.xy  // uv<0,1>
     dcl_2d s0
 
-#line 33 "C:\Users\james\OneDrive\Code\GitHub\Core.WPF\Core.WPF\Effects\PieEffect.fx"
+#line 33 "C:\Users\james\OneDrive\Code\GitHub\Ion.WPF\Ion.WPF\Effects\PieEffect.fx"
     add r0.xy, c2.z, v0
     add r0.zw, -r0_abs.xyxy, r0_abs.xyyx
     cmp r1.xy, r0.z, r0_abs, r0_abs.yxzw

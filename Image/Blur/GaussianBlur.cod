@@ -25,7 +25,7 @@
     dcl_texcoord v0.xy  // uv<0,1>
     dcl_2d s0
 
-#line 11 "C:\Users\james\OneDrive\Code\GitHub\Core.WPF\Core.WPF\Effects\-Image\Blur\GaussianBlur.fx"
+#line 11 "C:\Users\james\OneDrive\Code\GitHub\Ion.WPF\Ion.WPF\Effects\-Image\Blur\GaussianBlur.fx"
     mov r0.xy, c0
     add r0.x, r0.x, c3.x  // ::theta<0>
     dp2add r0.z, r0.x, r0.x, c0.y

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("No rights reserved.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.0+a62b05790cfa781aed788b5939ff75f8ee7de430")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.0+265df8edd651664f0d9c149b437266d77c8931c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ion.Effects")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ion.Effects")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -16,7 +16,7 @@ public abstract class ImageEffect() : BaseEffect()
 {
     public string Category => GetType().GetAttribute<GroupAttribute>()?.Name?.ToString();
 
-    public override string FilePath => $"-Image/{Category}/{Name}.ps";
+    public override string FilePath => $"Image/{Category}/{Name}.ps";
 
     public static readonly DependencyProperty AmountProperty = DependencyProperty.Register(nameof(Amount), typeof(double), typeof(ImageEffect), new FrameworkPropertyMetadata(1.0, PixelShaderConstantCallback(0)));
     [Range(0.0, 1.0)]

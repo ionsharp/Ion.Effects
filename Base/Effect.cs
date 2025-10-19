@@ -8,7 +8,7 @@ namespace Ion.Effects;
 /// <inheritdoc/>
 public abstract class BaseEffect : ShaderEffect
 {
-    protected const string DefaultFolder = $"-Default";
+    protected const string DefaultFolder = $"Default";
 
     protected string DefaultFilePath => $"{DefaultFolder}/{GetType().Name}.ps";
 
@@ -23,7 +23,7 @@ public abstract class BaseEffect : ShaderEffect
 
     protected BaseEffect() : base()
     {
-        PixelShader = new() { UriSource = new Uri($"/{AssemblyData.Name};component/Effects/{FilePath}", UriKind.Relative) };
+        PixelShader = new() { UriSource = new Uri($"/{AssemblyData.Name};component/{FilePath}", UriKind.Relative) };
         UpdateShaderValue(InputProperty);
     }
 }
